@@ -27,6 +27,10 @@
         <activity android:name="com.drinkgame.activitys.AddFriend"
             android:label="@string/hello_world" >
         </activity>
+        <activity android:name="com.drinkgame.activitys.CreateGame"
+            android:label="@string/hello_world" >
+        </activity>
+        
     </application>
 
 </manifest>

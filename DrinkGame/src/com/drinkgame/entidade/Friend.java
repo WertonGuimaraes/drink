@@ -4,6 +4,7 @@ public class Friend {
 	
 	private String mName;
 	private int mKey;
+	private boolean checked;
 	
 	public Friend(int key, String name) {
 		this.mKey = key;
@@ -28,6 +29,14 @@ public class Friend {
 	
 	public void setKey(int mKey) {
 		this.mKey = mKey;
+	}
+
+	public boolean isChecked() {
+		return checked;
+	}
+
+	public void setChecked(boolean checked) {
+		this.checked = checked;
 	}
 	
 	

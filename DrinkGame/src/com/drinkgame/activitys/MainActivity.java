@@ -28,6 +28,15 @@ public class MainActivity extends Activity {
 				startActivity(i);
 			}
 		});
+		
+		ImageView btCreateGame = (ImageView) findViewById(R.id.btCreateGame);
+		btCreateGame.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent i = new Intent(mContext, CreateGame.class);
+				startActivity(i);
+			}
+		});
 
 	}
 
